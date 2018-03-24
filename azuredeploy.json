@@ -15,7 +15,7 @@
       "storageNamePrefix": {
         "type": "string",
         "maxLength": 11,
-        "defaultValue": "papillonArmStorage",
+        "defaultValue": "Storage",
         "metadata": {
           "description": "The value to use for starting the storage account name. Use only lowercase letters and numbers."
         }
