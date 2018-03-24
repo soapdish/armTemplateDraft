@@ -4,4 +4,4 @@
 
 Public repository providing access to an azure template
 
-Draft quick arm template 
+Public repository providing access to an azure template that deploys a storage account to azure.
