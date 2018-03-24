@@ -1,6 +1,6 @@
 # armTemplateDraft
 
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/?repository=https://github.com/soapdish/armTemplateDraft.git)
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
 
 Public repository providing access to an azure template
 
