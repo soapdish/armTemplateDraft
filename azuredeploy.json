@@ -14,15 +14,24 @@
       },
       "storageNamePrefix": {
         "type": "string",
-        "maxLength": 11,
-        "defaultValue": "Storage",
+        "maxLength": 20,
+        "defaultValue": "initialstorage",
         "metadata": {
           "description": "The value to use for starting the storage account name. Use only lowercase letters and numbers."
         }
+      },
+      "locationName": {
+        "type": "string",
+        "defaultValue": "West Europe",
+        "allowedValues": [
+          "West Europe",
+          "UK South"
+        ]
       }
     },
     "variables": {
-      "storageName": "[concat(toLower(parameters('storageNamePrefix')), uniqueString(resourceGroup().id))]"
+      "storageName": "(toLower(parameters('storageNamePrefix'))",
+      "locationName": "parameters('locationName')"
     },
     "resources": [
       {
